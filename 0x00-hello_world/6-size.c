@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the size of various types
+ * main - prints the size of various typeson the comuter
  * Return: 0 if exited well, otherwise non-zero
  */
 int main(void)
