@@ -2,22 +2,20 @@
 
 /**
  * main - entry point
- * Descrition: prints all possible combinations of single-digit numbers
+ * Description: prints all possible combinations of single-digit numbers
  * Return: 0 Always (Success)
  */
 int main(void)
 {
 	int n;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(n + '0');
-	}
-	if (n < 9)
-	{
-		putchar(',');
-		putchar(' ');
+		putchar(n);
+		if (n != 57)
 		{
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
