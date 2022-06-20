@@ -2,9 +2,8 @@
 
 /**
  * _strchr - points to a character in a string
- *
  * @s: the string to check
- * @c: the chatacter 
+ * @c: the chatacter
  * Return: *S Null if char not found
 */
 
