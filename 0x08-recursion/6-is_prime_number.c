@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * primeFinder - finds if a number is prime
- * @a:number to check
- * @b: the numbers to look through
+ * primeFind - finds if a number is prime
+ * @c: number to check
+ * @d: the numbers to look through
  *
  * Return: Find if number is prime number or not
  */
